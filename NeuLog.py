@@ -12,7 +12,7 @@ class NeuLog:
 
     def start_experiment(self, sensors, rate, samples):
         # Setup and start an experiment
-        sensor_data = [self.sensor_registry.get_sensor(name) for name, _ in sensors]
+        sensor_data = [(self.sensor_registry.get_sensor(name),id) for name, id in sensors]
         self.experiment = Experiment(self.api_client, sensor_data, rate, samples)
         return self.experiment.start()
 

@@ -1,7 +1,7 @@
 # core/sensor_registry.py
 
-from NeuLog.models.sensor import Sensor, SensorConfig
-from NeuLog.utils.file_loader import load_yaml
+from models.sensor import Sensor, SensorConfig
+from utils.file_loader import load_yaml
 
 class SensorRegistry:
     def __init__(self, config_file="config/sensors.yaml"):
