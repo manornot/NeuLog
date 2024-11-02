@@ -2,8 +2,8 @@
 
 import pytest
 
-from NeuLog.models.sensor import SensorConfig
-from NeuLog.core.sensor_registry import SensorRegistry
+from NeuLogPy.models.sensor import SensorConfig
+from NeuLogPy.core.sensor_registry import SensorRegistry
 from pydantic import ValidationError
 
 def test_sensor_loading():
