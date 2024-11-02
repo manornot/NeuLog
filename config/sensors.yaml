@@ -1,0 +1,29 @@
+sensors:
+  Temperature:
+    code: "Temperature"
+    unit: "°C"
+    description: "Measures ambient temperature"
+  Humidity:
+    code: "Humidity"
+    unit: "%"
+    description: "Measures relative humidity"
+  Light:
+    code: "Light"
+    unit: "lux"
+    description: "Measures light intensity"
+  pH:
+    code: "pH"
+    unit: ""
+    description: "Measures pH levels"
+  Voltage:
+    code: "Voltage"
+    unit: "V"
+    description: "Measures electric voltage"
+  Oxygen:
+    code: "Oxygen"
+    unit: "%"
+    description: "Measures oxygen levels in the air"
+  Respiration:
+    code: "Respiration"
+    unit: ""
+    description: "Measures respiration rate"
